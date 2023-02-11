@@ -1,0 +1,62 @@
+
+body{
+  background-image: url("image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.cover{
+  overflow-x: hidden;
+  overflow-y: auto;    
+}
+
+.cover h1{
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+}
+
+.cover p{
+  text-align: center;
+  margin-top: 7px;
+  font-weight:900;
+  color: skyblue;
+}
+
+.cover .main{
+  display: flex;
+  margin-top: 35px;
+  align-items: center;
+}
+
+.cover .form-container{
+  width: 550px;
+  height: 355px;
+  background-color: whitesmoke;
+  margin: 30px auto;
+  padding: 23px;   
+}
+
+.cover .form-container .btn{
+  width: 100%;   
+}
+
+.cover .view-container{
+  display: flex;
+  flex-direction: column;
+  width: 500px;    
+  background-color: whitesmoke;
+  margin: 20px auto;
+  padding: 20px;
+
+}
+
+.delete-btn{
+  color: darkred;
+  cursor: pointer;
+}
+
+tbody{
+  margin-top: 25px;
+}
